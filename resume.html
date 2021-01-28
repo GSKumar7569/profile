@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width,initial-scale=1.0" />  
+    <title> Resume </title>
+    <style>
+       header{
+           background: cyan;
+           color: #fff;
+           padding: 1%;
+       }
+       .parent{
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: center;
+       }
+       .child1{
+           width: 30%;
+           border: 1px solid #ddd;
+           box-shadow: 0px 8px 8px -8px #000;
+           padding: 1%;
+           margin: 1%;
+       }
+       .child2{
+           width: 30%;
+           border: 1px solid #ddd;
+           box-shadow: 0px 8px 8px -8px #000;
+           padding: 1%;
+           margin: 1%;
+       }
+       .child-1 img{
+           width: 30%;
+           text-align: center;
+           display: block;
+           margin: 0% auto 0% auto ;
+       }
+       .child-1 h2{
+           margin: 0% auto;
+       }
+       @media only screen and (min-width: 320px;) and (max-width: 480px;){
+           .child-1,
+           .child-2{
+               width: 90%;
+               font-size: 25px;
+           }
+       }
+       @media only screen and (min-width: 320px;) and (max-width: 480px;){
+           .child-1,
+           .child-2{
+               width: 90%;
+               font-size: 25px;
+               background: ;
+           }
+       }      
+    </style>
+        
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        Profile Information
+    </header>
+    <!-- Content -->
+    <main class="parent">
+        <!-- child -->
+        <article class="child-1"> 
+        <img src="profile (1).svg" alt="user" /> <br>
+        <h2> Sushmanth </h2>
+        <a href="mailto:Sushmanthgamini75@gmail.com">
+        Sushmanthgamini75@gmail.com 
+        </a>
+        </article>
+        <!-- Child-2 -->
+        <article class="child-2">
+            <h2> Good Skills </h2>
+        </article>    
+    </main>    
+
+</body>
+</html>
